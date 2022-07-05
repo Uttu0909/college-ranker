@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body {
+    
+  overflow-x: hidden;
+}
+
+/* header */
+
+.header{
+    background-image: url("");
+    background-color: #47B5FF;
+    background-repeat: no-repeat;
+    background-position: 0px -244px;
+    background-size: cover;
+    width: 1560px;
+    height: 712px;
+
+}
+
+.header .img{
+    margin-left: 905px;
+    margin-top: 95px;
+}
+
+.header nav{
+    background-color: #FFFFFF;
+    height: 55px;
+    left: 0;
+    right: 0;
+    padding: 4px 0;
+    z-index: 200;
+}
+
+.header nav .nav-bar{
+    padding: 0px 15px;
+}
+
+.header nav .nav-bar ul{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.header nav .nav-bar ul li{
+   padding: 12px 30px;
+   
+}
+
+.header nav .nav-bar ul li a{
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+.header nav .nav-bar ul li a::after{
+    content: attr(data-after);
+    position: absolute;
+    background-color: #242F9B;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.header nav .nav-bar ul li a:hover{
+    color: #242F9B;
+}
+
+.header nav .nav-bar ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+.header nav .nav-bar font{
+    font-size: 37px;
+    padding: 7px 10px;
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    cursor: pointer;
+   
+}
+
+.header nav .nav-bar font:hover{
+    color: #242F9B;
+}
+
+.header .headline{
+    font-size: 65px;
+    color: rgb(51, 51, 51);
+    margin-top: -385px;
+    margin-left: 118px;
+    font-family: "Abril Fatface", cursive;
+}
+
+.header h3{
+    margin-left: 45px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.header button{
+    height: 66px;
+    width: 153px;
+    margin-left: 268px;
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #242F9B;
+}
+
+.header button:hover{
+    background-color: #777;
+}
+
+/* End of header section */
+
+
+/* Products */
+
+.products{
+    width: 1540px;
+}
+
+.products .headline{
+    margin-left: 602px;
+    margin-top: 58px;
+    margin-bottom: -40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+   
+}
+
+.card img:hover{
+    transform: scale(1.2);
+   
+}
+
+.card .card-body .icons img{
+    cursor: pointer;
+}
+
+.card .card-body .icons img:hover{
+  transform: scale(1.2);
+
+}
+.card .card-body h5{
+    font-size: 1.30rem;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+/* End of product section */
+
+/* About us */
+
+.about-us{
+    width: 1540px;
+}
+
+.about-us .headline{
+    font-family: 'Dancing Script',cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 665px;
+    margin-top:80px;
+
+}
+
+.about-us .row{
+    margin-top: 50px;
+}
+
+.about-us .row .box1{
+    width: 340px;
+    height: 409px;
+    border: 2px solid black;
+    margin-left: 96px;
+    
+   
+    background-color: #fff;
+    margin-right: -157px;
+    border-radius: 12px;
+    margin-top: -22px;
+    
+}
+
+.about-us .row .box1:hover{
+    transform: scale(1.1);
+}
+   
+
+.about-us .box1 .title{
+    font-size: 24px;
+    font-family:'Abril Fatface', cursive ;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.about-us .box1 .logo{
+    margin-left: 120px;
+}
+
+.about-us .box1 .logo img{
+    height: 80px;
+}
+
+.about-us .box1 .sub-title{
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.about-us .row .box2{
+    width: 350px;
+    height: 412px;
+    border: 2px solid black;
+    margin-left: 337px;
+ 
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: -24px;
+}
+
+.about-us .box2 .title{
+    font-size: 24px;
+    font-family:'Abril Fatface', cursive ;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.about-us .box2 .logo{
+    margin-left: 120px;
+}
+
+.about-us .box2 .logo img{
+    height: 80px;
+}
+
+.about-us .box2 .sub-title{
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.about-us .row .box2:hover{
+    transform: scale(1.1);
+}
+   
+
+.about-us .row .box3{
+    width: 340px;
+    height: 409px;
+   
+    margin-left: 167px;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: -22px;
+}
+
+.about-us .box3 .title{
+    font-size: 24px;
+    font-family:'Abril Fatface', cursive ;
+    margin-left: 100px;
+    margin-top: 20px;
+   
+}
+
+.about-us .box3 .logo{
+    margin-left: 130px;
+}
+
+.about-us .box3 .logo img{
+    height: 80px;
+}
+
+.about-us .box3 .sub-title{
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.about-us .row .box3:hover{
+    transform: scale(1.1);
+}
+   
+
+
+/* End of about us section */
+
+/* Contact us */
+
+.contact-us{
+    background-color: #777;
+    width: 1562px;
+    height: 500px;
+    
+}
+
+
+
+.contact-us .headline{
+    font-family: 'Dancing Script',cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 665px;
+    margin-top:80px;
+}
+
+.contact-us .row1{
+    margin-left: 337px;
+    margin-top: 58px;
+   
+}
+
+.contact-us .row1 .phone h6{
+    margin-left: 72px;
+    margin-top: -43px;
+    font-size: 24px;
+}
+
+.contact-us .row1 .loc{
+    margin-top: 20px;
+    margin-top: 34px;
+}
+
+.contact-us .row1 .loc h6{
+    margin-left: 72px;
+    margin-top: -35px;
+    font-size: 24px;
+}
+
+.contact-us  .sub-title{
+    margin-top: -126px;
+    margin-left: 988px;
+}
+
+.contact-us .sub-title font{
+    font-size: 24px;
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: normal;
+}
+
+.contact-us .row2{
+    margin-left: 727px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.contact-us .row2 .fb{
+    margin-left: -498px;
+}
+
+.contact-us .row2 .ig{
+    margin-left: -216px;
+}
+
+.contact-us .copyright{
+    margin-left: 735px;
+    margin-top: 227px;
+}
